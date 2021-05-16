@@ -1,1 +1,1 @@
-<!ENTITY file SYSTEM "/etc/passwd">
+<!ENTITY all "%start;%stuff;%end;">
